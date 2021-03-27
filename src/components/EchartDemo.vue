@@ -18,6 +18,7 @@ export default {
     this.drawCharts()
     this.loadAmap()
   },
+   
   methods: {
     randomData() {
       return Math.round(Math.random() * 300)
